@@ -1,0 +1,2 @@
+rootProject.name='Navigation Graph'
+include ':app'
