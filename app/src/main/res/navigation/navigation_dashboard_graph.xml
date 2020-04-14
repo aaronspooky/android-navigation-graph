@@ -9,5 +9,14 @@
         android:id="@+id/dashboardFragment"
         android:name="dev.jaque.navigationgraph.ui.dashboard.DashboardFragment"
         android:label="fragment_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_newDashboardFragment"
+            app:destination="@id/newDashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newDashboardFragment"
+        android:name="dev.jaque.navigationgraph.ui.dashboard.new_action.NewDashboardFragment"
+        android:label="fragment_new_dashboard"
+        tools:layout="@layout/fragment_new_dashboard" />
 </navigation>
